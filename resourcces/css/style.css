@@ -137,3 +137,23 @@ img {
 .background {
   background-color: transparent;
 }
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+
+  flex-flow: row wrap;
+  height: 200px;
+}
+.footer-figure {
+  padding: 30px 0px;
+  border: 2px solid red;
+}
+.footer-layer {
+  display: flex;
+  justify-content: center;
+}
+.left {
+  align-items: flex-start;
+  margin-left: 20px;
+}
