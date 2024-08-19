@@ -67,19 +67,47 @@ section {
   position: relative;
 }
 
-.row {
+.row-banner {
   display: flex;
   background-color: transparent;
 }
 
-h2 {
+.mission {
   font-size: 1.8rem;
   background-color: transparent;
   padding-top: 10px;
 }
 
-h4 {
+.words {
   font-size: 1.3rem;
   background-color: transparent;
   margin-top: -10px;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+}
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.month {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.row-pic {
+  display: flex;
+  row-gap: 10px;
+  flex-flow: column wrap;
+}
+.label {
+  display: flex;
+  justify-content: center;
 }
